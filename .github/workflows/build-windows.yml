@@ -1,0 +1,71 @@
+# Amelia's Agent Desktop — the Windows build, run HERE because this repo is
+# public and Actions are free on public repos; the private source repo's
+# jobs are refused whenever the account's Actions spending limit is hit.
+# The source stays private: it is checked out through a read-only deploy key
+# (SRC_DEPLOY_KEY) at the tag given. Only this workflow file is public.
+# macOS is built, signed and notarised locally (needs the keychain); the two
+# halves are published together by desktop/scripts/publish-desktop.sh.
+name: build-windows
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag in the source repo, e.g. desktop-v0.1.8"
+        required: true
+permissions:
+  contents: write
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - name: Check out the source at the tag (private repo, read-only key)
+        uses: actions/checkout@v4
+        with:
+          repository: RORHITD/amelias-agent-ios
+          ref: ${{ inputs.tag }}
+          ssh-key: ${{ secrets.SRC_DEPLOY_KEY }}
+          path: src
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src/desktop
+      - name: Build the amelia CLI sidecar
+        shell: bash
+        run: |
+          cd src/desktop
+          mkdir -p src-tauri/binaries
+          cargo build --release -p amelia-cli
+          TRIPLE=$(rustc -vV | sed -n 's/host: //p')
+          cp "target/release/amelia.exe" "src-tauri/binaries/amelia-$TRIPLE.exe"
+      - name: Check out the Amelia server to bundle
+        uses: actions/checkout@v4
+        with:
+          repository: RORHITD/amelias-webui
+          ref: master
+          path: .amelias-webui-src
+      - name: Stage the server into the bundle
+        shell: bash
+        run: |
+          cd src
+          ./scripts/check-bundled-webui --self-test
+          AMELIA_WEBUI_SRC="$GITHUB_WORKSPACE/.amelias-webui-src" desktop/scripts/stage-webui.sh
+          ./scripts/check-bundled-webui
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        with:
+          projectPath: src/desktop/src-tauri
+          tagName: ${{ inputs.tag }}
+          releaseName: "Amelia's Agent Desktop ${{ inputs.tag }}"
+          releaseDraft: true
+          args: ""
+      - name: Keep the installer as a run artifact too
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-${{ inputs.tag }}
+          path: |
+            src/desktop/src-tauri/target/release/bundle/msi/*.msi
+            src/desktop/src-tauri/target/release/bundle/msi/*.msi.sig
+          if-no-files-found: error
