@@ -1,23 +1,23 @@
 {
-  "version": "0.1.7",
-  "notes": "Your Mac now tells Amelia what it is, so the right computer is chosen automatically.",
-  "pub_date": "2026-09-04T05:56:53Z",
+  "version": "0.2.2",
+  "notes": "Your Mac now names its local models for the phone, and people you invite to your computer can sign in to it.",
+  "pub_date": "2026-10-03T04:08:53Z",
   "platforms": {
     "darwin-universal": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObGFERUNSSUVoejJPamlVMXVXVytjdThjekI3WFlrS21IdEJpeVBHaHkvWWFocGdkSC8weVUxazZobGVqUWtDSnJaTHRxZmVDREZPc0VpZkRtK2RYeEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTAwNjcwCWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negpQbXJ3MmtvbUtuai9IMVV0M3lXazB6U3JMb0ZvOEl0UGlFUkNwdHo4ZVVFbjhqeElZZDlEY29ZM1poQmRBRU5rNk5xQ2RQbHFsYVNpMmF4eUE3OXVBQT09Cg==",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.1.7/Amelia.s.Agent_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFdjTytLekphN1pYbjBpdnV3SXVwL1Z0SGFUYUQvaEdESU5VMExQbjQvWWlYK0pwWUVYZzk2emZ6dE5rOEk5OVVrT0RKL2Z0QWwwbDBJVHdzUU1taEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDAwNDM2CWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4yClFoZ0xXV2JQakpwT2ozTFNhYjVMOUFhWlpYMW4rWUx5UGxDL2hNRmtYTUZJKzRVSVFKWWp6THZBTzR3ckYwL1JMUlZwd1oxZnR3KzN6dU95am1RZUFBPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.2/Amelia.s.Agent_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObGFERUNSSUVoejJPamlVMXVXVytjdThjekI3WFlrS21IdEJpeVBHaHkvWWFocGdkSC8weVUxazZobGVqUWtDSnJaTHRxZmVDREZPc0VpZkRtK2RYeEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTAwNjcwCWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negpQbXJ3MmtvbUtuai9IMVV0M3lXazB6U3JMb0ZvOEl0UGlFUkNwdHo4ZVVFbjhqeElZZDlEY29ZM1poQmRBRU5rNk5xQ2RQbHFsYVNpMmF4eUE3OXVBQT09Cg==",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.1.7/Amelia.s.Agent_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFdjTytLekphN1pYbjBpdnV3SXVwL1Z0SGFUYUQvaEdESU5VMExQbjQvWWlYK0pwWUVYZzk2emZ6dE5rOEk5OVVrT0RKL2Z0QWwwbDBJVHdzUU1taEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDAwNDM2CWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4yClFoZ0xXV2JQakpwT2ozTFNhYjVMOUFhWlpYMW4rWUx5UGxDL2hNRmtYTUZJKzRVSVFKWWp6THZBTzR3ckYwL1JMUlZwd1oxZnR3KzN6dU95am1RZUFBPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.2/Amelia.s.Agent_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObGFERUNSSUVoejJPamlVMXVXVytjdThjekI3WFlrS21IdEJpeVBHaHkvWWFocGdkSC8weVUxazZobGVqUWtDSnJaTHRxZmVDREZPc0VpZkRtK2RYeEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTAwNjcwCWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negpQbXJ3MmtvbUtuai9IMVV0M3lXazB6U3JMb0ZvOEl0UGlFUkNwdHo4ZVVFbjhqeElZZDlEY29ZM1poQmRBRU5rNk5xQ2RQbHFsYVNpMmF4eUE3OXVBQT09Cg==",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.1.7/Amelia.s.Agent_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFdjTytLekphN1pYbjBpdnV3SXVwL1Z0SGFUYUQvaEdESU5VMExQbjQvWWlYK0pwWUVYZzk2emZ6dE5rOEk5OVVrT0RKL2Z0QWwwbDBJVHdzUU1taEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDAwNDM2CWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4yClFoZ0xXV2JQakpwT2ozTFNhYjVMOUFhWlpYMW4rWUx5UGxDL2hNRmtYTUZJKzRVSVFKWWp6THZBTzR3ckYwL1JMUlZwd1oxZnR3KzN6dU95am1RZUFBPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.2/Amelia.s.Agent_universal.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObGF5U0hzOG5hempDbGpyUmpYeGVLR3ZhNEV0aGtSVW5IWDQzeEFrdHZGcU1nQU93My8wSUlaS01JOUU3UFg4YWRyN1NqRlVicWpvNXdJT3YwT2VIM0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTAwODkyCWZpbGU6QW1lbGlhJ3MgQWdlbnRfMC4xLjdfeDY0X2VuLVVTLm1zaQpYRlBrOFU4MlkvL1prWktSTkVncGZzaTdHZ2I1SkwxZzQrR3FMNzRYdVRja05yK25mRG5KY25zOXdSZlZDYjUvbE12MEhUQ1VlaERpMytJcnhCMi9EQT09Cg==",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.1.7/Amelia.s.Agent_0.1.7_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFE2SWZFbEEwckIyN3VqalFCRklFN3E4S3IrOTZuMUtwczV6eDdiaVhDQ2d6aHdRbGJqd0VCY2ZWVUZXOXNmZmltMTIycjIzWVhDU3RTM0EvT3dSdHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTgwNjQyCWZpbGU6QW1lbGlhJ3MgQWdlbnRfMC4yLjJfeDY0X2VuLVVTLm1zaQl2ZXJzaW9uOjAuMi4yCndEWjduczZpdXdldmVmbXgwRDlQbW5OdmtMQ2pzVExxMlBRaytET0paLzR1d2xQZnVlRXRKK1ZrV2pYMHp3TGZEbXZsSVJZZk1lY1M3TDY1akRIYUNRPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.2/Amelia.s.Agent_0.2.2_x64_en-US.msi"
     }
   }
 }
