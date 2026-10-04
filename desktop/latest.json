@@ -1,35 +1,35 @@
 {
-  "version": "0.2.4",
-  "notes": "Small maintenance release.",
-  "pub_date": "2026-10-04T16:24:51Z",
+  "version": "0.2.5",
+  "notes": "Amelia's Agent now asks before restarting for an update, every time.",
+  "pub_date": "2026-10-04T17:18:58Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFI1NHZwWXFlWnRIL1IrUmNDb2NFdWx5bFVKN0RzdFNVdFNtcXhoa0NqVDg2K2xWT0dZSjRpRTBlV0U4RzhDTFVHVFJsUzVVcHc3WWowTWhIRWxFaHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTI5NjY1CWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi40ClJYcDNBbzJJUXV6SGw4OHVmU1grYXMzcTVIaXdHNnRJZjZyMVRTUjlSNWFyNE1RWnJTaWFyOUU3MFZDeFUvUGNRcjlISTVhU2I3TVN1cTNUZG12REJRPT0K",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.4/Amelia.s.Agent_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFhqVHJibFYvMWhNTjNiWG1RSHVMa3Q1TjVpaC96RVNDRXJiQkpZSHpFVzlEN2JxOUJJNnE2Y0N1b3VDMDhJb3B2Ui9JRUd5dmRoSWw0V25lcC9JUHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTMyOTIxCWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi41Clh6eGs3dlBtTTNTUGluRzNqQTU5enpuOW5xZUk5NVhiYldJT2NhcXFmem9CckwwcjVDNWF3VHFNYjNBa0MwaXlndTdTM3g3OENxZmZNZjlxYTJZbURnPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.5/Amelia.s.Agent_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFI1NHZwWXFlWnRIL1IrUmNDb2NFdWx5bFVKN0RzdFNVdFNtcXhoa0NqVDg2K2xWT0dZSjRpRTBlV0U4RzhDTFVHVFJsUzVVcHc3WWowTWhIRWxFaHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTI5NjY1CWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi40ClJYcDNBbzJJUXV6SGw4OHVmU1grYXMzcTVIaXdHNnRJZjZyMVRTUjlSNWFyNE1RWnJTaWFyOUU3MFZDeFUvUGNRcjlISTVhU2I3TVN1cTNUZG12REJRPT0K",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.4/Amelia.s.Agent_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFhqVHJibFYvMWhNTjNiWG1RSHVMa3Q1TjVpaC96RVNDRXJiQkpZSHpFVzlEN2JxOUJJNnE2Y0N1b3VDMDhJb3B2Ui9JRUd5dmRoSWw0V25lcC9JUHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTMyOTIxCWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi41Clh6eGs3dlBtTTNTUGluRzNqQTU5enpuOW5xZUk5NVhiYldJT2NhcXFmem9CckwwcjVDNWF3VHFNYjNBa0MwaXlndTdTM3g3OENxZmZNZjlxYTJZbURnPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.5/Amelia.s.Agent_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFI1NHZwWXFlWnRIL1IrUmNDb2NFdWx5bFVKN0RzdFNVdFNtcXhoa0NqVDg2K2xWT0dZSjRpRTBlV0U4RzhDTFVHVFJsUzVVcHc3WWowTWhIRWxFaHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTI5NjY1CWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi40ClJYcDNBbzJJUXV6SGw4OHVmU1grYXMzcTVIaXdHNnRJZjZyMVRTUjlSNWFyNE1RWnJTaWFyOUU3MFZDeFUvUGNRcjlISTVhU2I3TVN1cTNUZG12REJRPT0K",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.4/Amelia.s.Agent_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFhqVHJibFYvMWhNTjNiWG1RSHVMa3Q1TjVpaC96RVNDRXJiQkpZSHpFVzlEN2JxOUJJNnE2Y0N1b3VDMDhJb3B2Ui9JRUd5dmRoSWw0V25lcC9JUHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTMyOTIxCWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi41Clh6eGs3dlBtTTNTUGluRzNqQTU5enpuOW5xZUk5NVhiYldJT2NhcXFmem9CckwwcjVDNWF3VHFNYjNBa0MwaXlndTdTM3g3OENxZmZNZjlxYTJZbURnPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.5/Amelia.s.Agent_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFI1NHZwWXFlWnRIL1IrUmNDb2NFdWx5bFVKN0RzdFNVdFNtcXhoa0NqVDg2K2xWT0dZSjRpRTBlV0U4RzhDTFVHVFJsUzVVcHc3WWowTWhIRWxFaHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTI5NjY1CWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi40ClJYcDNBbzJJUXV6SGw4OHVmU1grYXMzcTVIaXdHNnRJZjZyMVRTUjlSNWFyNE1RWnJTaWFyOUU3MFZDeFUvUGNRcjlISTVhU2I3TVN1cTNUZG12REJRPT0K",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.4/Amelia.s.Agent_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFhqVHJibFYvMWhNTjNiWG1RSHVMa3Q1TjVpaC96RVNDRXJiQkpZSHpFVzlEN2JxOUJJNnE2Y0N1b3VDMDhJb3B2Ui9JRUd5dmRoSWw0V25lcC9JUHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTMyOTIxCWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi41Clh6eGs3dlBtTTNTUGluRzNqQTU5enpuOW5xZUk5NVhiYldJT2NhcXFmem9CckwwcjVDNWF3VHFNYjNBa0MwaXlndTdTM3g3OENxZmZNZjlxYTJZbURnPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.5/Amelia.s.Agent_universal.app.tar.gz"
     },
     "darwin-universal": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFI1NHZwWXFlWnRIL1IrUmNDb2NFdWx5bFVKN0RzdFNVdFNtcXhoa0NqVDg2K2xWT0dZSjRpRTBlV0U4RzhDTFVHVFJsUzVVcHc3WWowTWhIRWxFaHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTI5NjY1CWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi40ClJYcDNBbzJJUXV6SGw4OHVmU1grYXMzcTVIaXdHNnRJZjZyMVRTUjlSNWFyNE1RWnJTaWFyOUU3MFZDeFUvUGNRcjlISTVhU2I3TVN1cTNUZG12REJRPT0K",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.4/Amelia.s.Agent_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFhqVHJibFYvMWhNTjNiWG1RSHVMa3Q1TjVpaC96RVNDRXJiQkpZSHpFVzlEN2JxOUJJNnE2Y0N1b3VDMDhJb3B2Ui9JRUd5dmRoSWw0V25lcC9JUHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTMyOTIxCWZpbGU6QW1lbGlhJ3MgQWdlbnQuYXBwLnRhci5negl2ZXJzaW9uOjAuMi41Clh6eGs3dlBtTTNTUGluRzNqQTU5enpuOW5xZUk5NVhiYldJT2NhcXFmem9CckwwcjVDNWF3VHFNYjNBa0MwaXlndTdTM3g3OENxZmZNZjlxYTJZbURnPT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.5/Amelia.s.Agent_universal.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFpxamFtV3JpdTByeWpsaFp1SkVTWGtCS1FBSmNkTGpvdTFqMGh0YUU4R01MRVhxM09yS2NKZHZEYWZxNnFLY0o1QWh3a3B4VzU5QWs5WnQ3ZkRiY3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTMwODUyCWZpbGU6QW1lbGlhJ3MgQWdlbnRfMC4yLjRfeDY0X2VuLVVTLm1zaQl2ZXJzaW9uOjAuMi40CkxOQXZLMkpYbXNXTGFhbHdyQXkxTFh2c3dEaUtIZHZEVUcwaWdnYU1mbkMwekZYYlRuVVhLVyt3Zkw1b2xHbUhBaUpDN0t1WXpVU0R0WkNleldkckFnPT0K",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.4/Amelia.s.Agent_0.2.4_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFRJM0lLaFBueEVCTk9uVFhoTWNaMGdiUEtId1hQbFJ1T1BPU0lFU3FqYU1XWXhZQ24zb1FyM2MrTFVyc20vSnRldDBDUnJEVENRS2pDcDNJbnBuSFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM0MDg0CWZpbGU6QW1lbGlhJ3MgQWdlbnRfMC4yLjVfeDY0X2VuLVVTLm1zaQl2ZXJzaW9uOjAuMi41CjVlUzVSZWgyVldwWTBLekczU0pGNUdCVG5OTGZ6WjI3SmVaelpZK2pYMDBrZEJsenFoc3orVXRIWEhoaDJuaGZSS0dTQUkzeUNlU2d0S00wS1liVkF3PT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.5/Amelia.s.Agent_0.2.5_x64_en-US.msi"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFpxamFtV3JpdTByeWpsaFp1SkVTWGtCS1FBSmNkTGpvdTFqMGh0YUU4R01MRVhxM09yS2NKZHZEYWZxNnFLY0o1QWh3a3B4VzU5QWs5WnQ3ZkRiY3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTMwODUyCWZpbGU6QW1lbGlhJ3MgQWdlbnRfMC4yLjRfeDY0X2VuLVVTLm1zaQl2ZXJzaW9uOjAuMi40CkxOQXZLMkpYbXNXTGFhbHdyQXkxTFh2c3dEaUtIZHZEVUcwaWdnYU1mbkMwekZYYlRuVVhLVyt3Zkw1b2xHbUhBaUpDN0t1WXpVU0R0WkNleldkckFnPT0K",
-      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.4/Amelia.s.Agent_0.2.4_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZzYwNmZZZ0lObFRJM0lLaFBueEVCTk9uVFhoTWNaMGdiUEtId1hQbFJ1T1BPU0lFU3FqYU1XWXhZQ24zb1FyM2MrTFVyc20vSnRldDBDUnJEVENRS2pDcDNJbnBuSFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM0MDg0CWZpbGU6QW1lbGlhJ3MgQWdlbnRfMC4yLjVfeDY0X2VuLVVTLm1zaQl2ZXJzaW9uOjAuMi41CjVlUzVSZWgyVldwWTBLekczU0pGNUdCVG5OTGZ6WjI3SmVaelpZK2pYMDBrZEJsenFoc3orVXRIWEhoaDJuaGZSS0dTQUkzeUNlU2d0S00wS1liVkF3PT0K",
+      "url": "https://github.com/RORHITD/amelia-desktop-releases/releases/download/desktop-v0.2.5/Amelia.s.Agent_0.2.5_x64_en-US.msi"
     }
   }
 }
